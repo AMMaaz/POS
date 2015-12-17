@@ -448,7 +448,7 @@
             this.Scan_Customer_ID_Btn.Name = "Scan_Customer_ID_Btn";
             this.Scan_Customer_ID_Btn.Size = new System.Drawing.Size(171, 33);
             this.Scan_Customer_ID_Btn.TabIndex = 0;
-            this.Scan_Customer_ID_Btn.Text = "Scan Customer ID";
+            this.Scan_Customer_ID_Btn.Text = "Scan";
             this.Scan_Customer_ID_Btn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.Scan_Customer_ID_Btn.UseVisualStyleBackColor = true;
             // 

@@ -196,3 +196,6 @@ C:\Users\Ali\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFor
 C:\Users\Ali\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
 C:\Users\Ali\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
 C:\Users\Ali\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
