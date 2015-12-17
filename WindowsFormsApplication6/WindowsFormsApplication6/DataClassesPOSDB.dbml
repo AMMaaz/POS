@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="POSDB" Class="DataClassesPOSDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=POSDB;Integrated Security=True" SettingsObjectName="WindowsFormsApplication6.Properties.Settings" SettingsPropertyName="POSDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Customer" Member="Customers">
+    <Type Name="Customer">
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="LName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Suffix" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Zip" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ID_Number" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ID_Expiration" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DOB" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Sex" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Race" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Height" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Weight" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Hair" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Eye_Color" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Cell" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Cell_Texting" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Cell_Last_Updated" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Home_Phone" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Email_Address" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Customer_Added_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Customer_Loan" Member="Loans" ThisKey="CustomerID" OtherKey="CustomerID" Type="Loan" />
+      <Association Name="Customer_Purchase" Member="Purchases" ThisKey="CustomerID" OtherKey="CustomerID" Type="Purchase" />
+      <Association Name="Customer_Sale" Member="Sales" ThisKey="CustomerID" OtherKey="CustomerID" Type="Sale" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Loan" Member="Loans">
+    <Type Name="Loan">
+      <Column Name="LoanID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LoanType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Loan_LoanAutomotive" Member="LoanAutomotives" ThisKey="LoanID" OtherKey="LoanID" Type="LoanAutomotive" />
+      <Association Name="Loan_LoanFirearm" Member="LoanFirearms" ThisKey="LoanID" OtherKey="LoanID" Type="LoanFirearm" />
+      <Association Name="Loan_LoanGeneral" Member="LoanGenerals" ThisKey="LoanID" OtherKey="LoanID" Type="LoanGeneral" />
+      <Association Name="Loan_LoanJewelry" Member="LoanJewelries" ThisKey="LoanID" OtherKey="LoanID" Type="LoanJewelry" />
+      <Association Name="Customer_Loan" Member="Customer" ThisKey="CustomerID" OtherKey="CustomerID" Type="Customer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoanAutomotive" Member="LoanAutomotives">
+    <Type Name="LoanAutomotive">
+      <Column Name="AutomotiveID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LoanID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Year" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TypeOfAutomobile" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BodyType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Model" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PlateTag" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="VINSerialNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Color" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ItemNotes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AmountLoaned" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Loan_LoanAutomotive" Member="Loan" ThisKey="LoanID" OtherKey="LoanID" Type="Loan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoanFirearm" Member="LoanFirearms">
+    <Type Name="LoanFirearm">
+      <Column Name="FirearmID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LoanID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Action" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Model" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Caliber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Importer" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SerialNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Finish" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ItemNotes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AmountLoaned" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Loan_LoanFirearm" Member="Loan" ThisKey="LoanID" OtherKey="LoanID" Type="Loan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoanGeneral" Member="LoanGenerals">
+    <Type Name="LoanGeneral">
+      <Column Name="GenrealID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LoanID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Category" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SubCategory" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Model" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SerialNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ItemNotes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AmountLoaned" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Loan_LoanGeneral" Member="Loan" ThisKey="LoanID" OtherKey="LoanID" Type="Loan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoanJewelry" Member="LoanJewelries">
+    <Type Name="LoanJewelry">
+      <Column Name="JewelryID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LoanID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Metal" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Size" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Style" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Sex" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StoneType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Purity" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StonesNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Weight" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AddtionalInfo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ItemNotes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AmountLoaned" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Loan_LoanJewelry" Member="Loan" ThisKey="LoanID" OtherKey="LoanID" Type="Loan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Purchase" Member="Purchases">
+    <Type Name="Purchase">
+      <Column Name="PurchaseID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PurchaseType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Purchase_PurchaseAutomotive" Member="PurchaseAutomotives" ThisKey="PurchaseID" OtherKey="PurchaseID" Type="PurchaseAutomotive" />
+      <Association Name="Purchase_PurchaseFirearm" Member="PurchaseFirearms" ThisKey="PurchaseID" OtherKey="PurchaseID" Type="PurchaseFirearm" />
+      <Association Name="Purchase_PurchaseGeneral" Member="PurchaseGenerals" ThisKey="PurchaseID" OtherKey="PurchaseID" Type="PurchaseGeneral" />
+      <Association Name="Purchase_PurchaseJewelry" Member="PurchaseJewelries" ThisKey="PurchaseID" OtherKey="PurchaseID" Type="PurchaseJewelry" />
+      <Association Name="Customer_Purchase" Member="Customer" ThisKey="CustomerID" OtherKey="CustomerID" Type="Customer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PurchaseAutomotive" Member="PurchaseAutomotives">
+    <Type Name="PurchaseAutomotive">
+      <Column Name="AutomotiveID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PurchaseID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Year" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TypeOfAutomobile" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BodyType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Model" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PlateTag" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="VINSerialNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Color" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ItemNotes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AmountLoaned" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Purchase_PurchaseAutomotive" Member="Purchase" ThisKey="PurchaseID" OtherKey="PurchaseID" Type="Purchase" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PurchaseFirearm" Member="PurchaseFirearms">
+    <Type Name="PurchaseFirearm">
+      <Column Name="FirearmID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PurchaseID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Action" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Model" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Caliber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Importer" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SerialNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Finish" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ItemNotes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AmountLoaned" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Purchase_PurchaseFirearm" Member="Purchase" ThisKey="PurchaseID" OtherKey="PurchaseID" Type="Purchase" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PurchaseGeneral" Member="PurchaseGenerals">
+    <Type Name="PurchaseGeneral">
+      <Column Name="GenrealID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PurchaseID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Category" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SubCategory" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Model" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SerialNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ItemNotes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AmountLoaned" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Purchase_PurchaseGeneral" Member="Purchase" ThisKey="PurchaseID" OtherKey="PurchaseID" Type="Purchase" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PurchaseJewelry" Member="PurchaseJewelries">
+    <Type Name="PurchaseJewelry">
+      <Column Name="JewelryID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PurchaseID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Metal" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Size" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Style" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Sex" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StoneType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Purity" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StonesNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Weight" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AddtionalInfo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ItemNotes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AmountLoaned" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Purchase_PurchaseJewelry" Member="Purchase" ThisKey="PurchaseID" OtherKey="PurchaseID" Type="Purchase" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Sale" Member="Sales">
+    <Type Name="Sale">
+      <Column Name="SaleId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ItemNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cateory" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Make" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Model" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ItemDescription" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Price" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ExtendedPrice" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Customer_Sale" Member="Customer" ThisKey="CustomerID" OtherKey="CustomerID" Type="Customer" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

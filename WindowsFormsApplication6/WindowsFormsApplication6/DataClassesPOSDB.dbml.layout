@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 39.25" name="DataClassesPOSDB">
+  <DataContextMoniker Name="/DataClassesPOSDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="35081c15-793b-4211-8d7d-0c941dcb99ef" absoluteBounds="0.75, 18.125, 2, 5.4246240234375023">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0814125f-a592-491d-8863-6ad06e190f18" absoluteBounds="0.765, 18.585, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="63d94628-378c-4520-8bf8-5ed65472c4a3" absoluteBounds="3.5, 10, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/Loan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99ac8b44-e624-4c68-9153-48690e7135f8" absoluteBounds="3.515, 10.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eca31018-4694-4344-b860-57313c093cad" absoluteBounds="6.25, 6.375, 2, 3.5016097005208318">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/LoanAutomotive" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e6741f89-5e7a-4485-853e-f7a1cf3525c8" absoluteBounds="6.265, 6.835, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="262975a6-26a4-4e75-ba3d-9b4d05007ba2" absoluteBounds="6.25, 10.625, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/LoanFirearm" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b767ffd6-6057-4150-9597-2a558273cf38" absoluteBounds="6.265, 11.085, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e000c119-ca4e-46c5-b7c7-b26beb1ee656" absoluteBounds="6.25, 2.625, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/LoanGeneral" />
+      <nestedChildShapes>
+        <elementListCompartment Id="43432fa0-e7f1-4f09-ae1d-8e53a54c7f3b" absoluteBounds="6.265, 3.085, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b163060e-2bdf-4fd2-9b13-13353cb7e870" absoluteBounds="6.25, 14.875, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/LoanJewelry" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25bf0298-d30b-43e3-ab42-1d065a97769c" absoluteBounds="6.265, 15.335, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="98064008-e99c-4bdc-b203-de528af80ad0" absoluteBounds="3.5, 26.75, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/Purchase" />
+      <nestedChildShapes>
+        <elementListCompartment Id="974f1b57-e8d1-464f-b4bf-d16711f72195" absoluteBounds="3.515, 27.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="31308ca9-9298-4a3f-860a-d40a8b195787" absoluteBounds="6.25, 23.125, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/PurchaseAutomotive" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50ce7b88-d384-46b1-8bd3-325fe451c990" absoluteBounds="6.265, 23.585, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="552c3250-86b1-4a45-9f5f-42848144a4be" absoluteBounds="6.25, 27.375, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/PurchaseFirearm" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fa614ece-369a-4739-9401-fdda4d8f2be2" absoluteBounds="6.265, 27.835, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c639466a-e2da-41b8-ab73-9a6803f292a0" absoluteBounds="6.25, 19.5, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/PurchaseGeneral" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3fc930f3-c6d7-4c7d-93c0-7d00b5c728e4" absoluteBounds="6.265, 19.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c034e745-982a-437e-9c2a-b7134b1a6a16" absoluteBounds="6.25, 31.625, 2, 3.886212565104163">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/PurchaseJewelry" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8935b7bc-18b3-481c-90d9-d8172466b595" absoluteBounds="6.265, 32.085, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5f4ad46c-863b-4d43-8d6e-6624873ff102" absoluteBounds="3.5, 36.25, 2, 2.7324039713541595">
+      <DataClassMoniker Name="/DataClassesPOSDBDataContext/Sale" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fd5c95d9-3ff0-4f65-a8b1-e331b70b5f14" absoluteBounds="3.515, 36.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 18.125); (1.75 : 10.6931469726562); (3.5 : 10.6931469726562)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesPOSDBDataContext/Customer/Customer_Loan" />
+      <nodes>
+        <classShapeMoniker Id="35081c15-793b-4211-8d7d-0c941dcb99ef" />
+        <classShapeMoniker Id="63d94628-378c-4520-8bf8-5ed65472c4a3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 10); (4.5 : 8.12580485026042); (4.94791916666667 : 8.12580485026042 : JumpStart); (5.11458583333333 : 8.12580485026042 : JumpEnd); (6.25 : 8.12580485026042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesPOSDBDataContext/Loan/Loan_LoanAutomotive" />
+      <nodes>
+        <classShapeMoniker Id="63d94628-378c-4520-8bf8-5ed65472c4a3" />
+        <classShapeMoniker Id="eca31018-4694-4344-b860-57313c093cad" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 11.0056469726562); (6.25 : 11.0056469726562)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesPOSDBDataContext/Loan/Loan_LoanFirearm" />
+      <nodes>
+        <classShapeMoniker Id="63d94628-378c-4520-8bf8-5ed65472c4a3" />
+        <classShapeMoniker Id="262975a6-26a4-4e75-ba3d-9b4d05007ba2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.0312525 : 10); (5.0312525 : 4.08735270182292); (6.25 : 4.08735270182292)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesPOSDBDataContext/Loan/Loan_LoanGeneral" />
+      <nodes>
+        <classShapeMoniker Id="63d94628-378c-4520-8bf8-5ed65472c4a3" />
+        <classShapeMoniker Id="e000c119-ca4e-46c5-b7c7-b26beb1ee656" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 11.3862939453125); (4.5 : 16.8181062825521); (6.25 : 16.8181062825521)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesPOSDBDataContext/Loan/Loan_LoanJewelry" />
+      <nodes>
+        <classShapeMoniker Id="63d94628-378c-4520-8bf8-5ed65472c4a3" />
+        <classShapeMoniker Id="b163060e-2bdf-4fd2-9b13-13353cb7e870" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 23.5496240234375); (1.75 : 27.4431469726563); (2.19791916666667 : 27.4431469726563 : JumpStart); (2.36458583333333 : 27.4431469726563 : JumpEnd); (3.5 : 27.4431469726563)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesPOSDBDataContext/Customer/Customer_Purchase" />
+      <nodes>
+        <classShapeMoniker Id="35081c15-793b-4211-8d7d-0c941dcb99ef" />
+        <classShapeMoniker Id="98064008-e99c-4bdc-b203-de528af80ad0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 26.75); (4.5 : 24.8758048502604); (4.94791916666667 : 24.8758048502604 : JumpStart); (5.11458583333333 : 24.8758048502604 : JumpEnd); (6.25 : 24.8758048502604)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesPOSDBDataContext/Purchase/Purchase_PurchaseAutomotive" />
+      <nodes>
+        <classShapeMoniker Id="98064008-e99c-4bdc-b203-de528af80ad0" />
+        <classShapeMoniker Id="31308ca9-9298-4a3f-860a-d40a8b195787" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 27.7556469726563); (6.25 : 27.7556469726563)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesPOSDBDataContext/Purchase/Purchase_PurchaseFirearm" />
+      <nodes>
+        <classShapeMoniker Id="98064008-e99c-4bdc-b203-de528af80ad0" />
+        <classShapeMoniker Id="552c3250-86b1-4a45-9f5f-42848144a4be" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.0312525 : 26.75); (5.0312525 : 20.9623527018229); (6.25 : 20.9623527018229)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesPOSDBDataContext/Purchase/Purchase_PurchaseGeneral" />
+      <nodes>
+        <classShapeMoniker Id="98064008-e99c-4bdc-b203-de528af80ad0" />
+        <classShapeMoniker Id="c639466a-e2da-41b8-ab73-9a6803f292a0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 28.1362939453125); (4.5 : 33.5681062825521); (6.25 : 33.5681062825521)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesPOSDBDataContext/Purchase/Purchase_PurchaseJewelry" />
+      <nodes>
+        <classShapeMoniker Id="98064008-e99c-4bdc-b203-de528af80ad0" />
+        <classShapeMoniker Id="c034e745-982a-437e-9c2a-b7134b1a6a16" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.2812525 : 23.5496240234375); (2.2812525 : 37.6162019856771); (3.5 : 37.6162019856771)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesPOSDBDataContext/Customer/Customer_Sale" />
+      <nodes>
+        <classShapeMoniker Id="35081c15-793b-4211-8d7d-0c941dcb99ef" />
+        <classShapeMoniker Id="5f4ad46c-863b-4d43-8d6e-6624873ff102" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,13 @@
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Release\WindowsFormsApplication6.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Release\WindowsFormsApplication6.exe
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Release\WindowsFormsApplication6.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Release\WebCam_Capture.dll
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.Form1.resources
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.exe
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.loan_form.resources
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.loanpayment.resources
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Release\WindowsFormsApplication6.exe.CodeAnalysisLog.xml
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Release\WindowsFormsApplication6.exe.lastcodeanalysissucceeded

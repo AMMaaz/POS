@@ -1,0 +1,175 @@
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WebCam_Capture.dll
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loanpayment.resources
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loan_form.resources
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotiveLoanItemEntry.resources
+C:\Users\Administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmLoanItemEntry.resources
+C:\Users\Administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryLoanItemEntry.resources
+C:\Users\Administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.MainScreen.resources
+C:\Users\Administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralLoanItemEntry.resources
+C:\Users\Administrator\documents\visual studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.TakeNewCustomerPicture.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WebCam_Capture.dll
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotiveLoanItemEntry.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotivePurchaseItemEntry.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmLoanItemEntry.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmPurchaseItemEntry.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralPurchaseItemEntry.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.InventoryControl.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryPurchaseItemEntry.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.SystemControl.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.TakeNewCustomerPicture.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryLoanItemEntry.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.MainScreen.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralLoanItemEntry.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loanpayment.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loan_form.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\Administrator\Google Drive\Pawn Software\PawnPOS - Development by Richard Jarvis III\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotiveLoanItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotivePurchaseItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmLoanItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmPurchaseItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralPurchaseItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.InventoryControl.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryPurchaseItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.SystemControl.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.TakeNewCustomerPicture.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryLoanItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.MainScreen.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralLoanItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loanpayment.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loan_form.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Users\Khurram Shahzad\Desktop\POS\Pawn_POS_User_Interface\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotiveLoanItemEntry.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotivePurchaseItemEntry.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmLoanItemEntry.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmPurchaseItemEntry.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralPurchaseItemEntry.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.InventoryControl.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryPurchaseItemEntry.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.SystemControl.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.TakeNewCustomerPicture.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryLoanItemEntry.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.MainScreen.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralLoanItemEntry.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loanpayment.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loan_form.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\Ali Ahmed\Documents\Visual Studio 2015\Projects\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotiveLoanItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotivePurchaseItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmLoanItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmPurchaseItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralPurchaseItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.InventoryControl.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryPurchaseItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.SystemControl.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.TakeNewCustomerPicture.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryLoanItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.MainScreen.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralLoanItemEntry.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loanpayment.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loan_form.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+C:\Users\Khurram Shahzad\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotiveLoanItemEntry.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotivePurchaseItemEntry.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmLoanItemEntry.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmPurchaseItemEntry.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralPurchaseItemEntry.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.InventoryControl.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryPurchaseItemEntry.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.SystemControl.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.TakeNewCustomerPicture.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryLoanItemEntry.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.MainScreen.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralLoanItemEntry.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loanpayment.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loan_form.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+C:\Users\Maaz\Desktop\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AddCustomer.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AddCustomer.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotiveLoanItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotivePurchaseItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmLoanItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmPurchaseItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralPurchaseItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.InventoryControl.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryPurchaseItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.SystemControl.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.TakeNewCustomerPicture.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryLoanItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.MainScreen.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralLoanItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loanpayment.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loan_form.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AddCustomer.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotiveLoanItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotivePurchaseItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmLoanItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmPurchaseItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralPurchaseItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.InventoryControl.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryPurchaseItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.SystemControl.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.TakeNewCustomerPicture.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryLoanItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.MainScreen.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralLoanItemEntry.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loanpayment.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loan_form.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\Maaz\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache

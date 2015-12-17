@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B1761E7-DF35-452C-BCA2-6B637EEF7E3F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication6</RootNamespace>
+    <AssemblyName>WindowsFormsApplication6</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebCam_Capture">
+      <HintPath>..\..\..\..\..\Downloads\EasyWebCam\DLL for Add Reference\WebCam_Capture.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomer.Designer.cs">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutomotiveLoanItemEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutomotiveLoanItemEntry.Designer.cs">
+      <DependentUpon>AutomotiveLoanItemEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutomotivePurchaseItemEnrty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutomotivePurchaseItemEnrty.Designer.cs">
+      <DependentUpon>AutomotivePurchaseItemEnrty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClassesPOSDB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClassesPOSDB.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="FirearmLoanItemEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirearmLoanItemEntry.Designer.cs">
+      <DependentUpon>FirearmLoanItemEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirearmPurchaseItemEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirearmPurchaseItemEntry.Designer.cs">
+      <DependentUpon>FirearmPurchaseItemEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralItemPurchaseEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralItemPurchaseEntry.Designer.cs">
+      <DependentUpon>GeneralItemPurchaseEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryControl.Designer.cs">
+      <DependentUpon>InventoryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JewelryPurchaseItemEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JewelryPurchaseItemEntry.Designer.cs">
+      <DependentUpon>JewelryPurchaseItemEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemControl.Designer.cs">
+      <DependentUpon>SystemControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeNewCustomerPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeNewCustomerPicture.Designer.cs">
+      <DependentUpon>TakeNewCustomerPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JewelryLoanItemEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JewelryLoanItemEntry.Designer.cs">
+      <DependentUpon>JewelryLoanItemEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainScreen.Designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralLoanItemEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralLoanItemEntry.Designer.cs">
+      <DependentUpon>GeneralLoanItemEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loanpayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loanpayment.Designer.cs">
+      <DependentUpon>loanpayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper.cs" />
+    <Compile Include="loan_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loan_form.Designer.cs">
+      <DependentUpon>loan_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebCam.cs" />
+    <EmbeddedResource Include="AddCustomer.resx">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutomotiveLoanItemEntry.resx">
+      <DependentUpon>AutomotiveLoanItemEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutomotivePurchaseItemEnrty.resx">
+      <DependentUpon>AutomotivePurchaseItemEnrty.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataClassesPOSDB.dbml.layout">
+      <DependentUpon>DataClassesPOSDB.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="FirearmLoanItemEntry.resx">
+      <DependentUpon>FirearmLoanItemEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirearmPurchaseItemEntry.resx">
+      <DependentUpon>FirearmPurchaseItemEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralItemPurchaseEntry.resx">
+      <DependentUpon>GeneralItemPurchaseEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryControl.resx">
+      <DependentUpon>InventoryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JewelryPurchaseItemEntry.resx">
+      <DependentUpon>JewelryPurchaseItemEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemControl.resx">
+      <DependentUpon>SystemControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeNewCustomerPicture.resx">
+      <DependentUpon>TakeNewCustomerPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JewelryLoanItemEntry.resx">
+      <DependentUpon>JewelryLoanItemEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainScreen.resx">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralLoanItemEntry.resx">
+      <DependentUpon>GeneralLoanItemEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loanpayment.resx">
+      <DependentUpon>loanpayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loan_form.resx">
+      <DependentUpon>loan_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataClassesPOSDB.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClassesPOSDB.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
