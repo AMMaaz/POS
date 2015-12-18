@@ -176,14 +176,6 @@
             this.label73 = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
             this.label59 = new System.Windows.Forms.Label();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Make = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Model = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ExpectedResale = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PurchaseAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label56 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
@@ -223,6 +215,52 @@
             this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label77 = new System.Windows.Forms.Label();
             this.buttonAddCustomer = new System.Windows.Forms.Button();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.dataGridView6 = new System.Windows.Forms.DataGridView();
+            this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.JDiscription = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.JItemNotes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.JExpectedResale = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.JAmountLoaned = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Metal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Size = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Style = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Sex = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StoneTpe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Purity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NoOfStones = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Weight = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AdditionalInfo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.dataGridView7 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.dataGridView8 = new System.Windows.Forms.DataGridView();
+            this.Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SubCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Make = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Model = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Discription = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SerialNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ItemNotes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ExpectedResalePrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AmountLoaned = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControlMainMenu.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSearchedCustomers)).BeginInit();
@@ -234,13 +272,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.tabPage7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            this.tabPage8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            this.tabPage9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
+            this.tabPage10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonSystemControl
@@ -1543,6 +1589,7 @@
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.tabPage4.Controls.Add(this.tabControl1);
             this.tabPage4.Controls.Add(this.pictureBox3);
             this.tabPage4.Controls.Add(this.textBox17);
             this.tabPage4.Controls.Add(this.label75);
@@ -1563,7 +1610,6 @@
             this.tabPage4.Controls.Add(this.label73);
             this.tabPage4.Controls.Add(this.button21);
             this.tabPage4.Controls.Add(this.label59);
-            this.tabPage4.Controls.Add(this.dataGridView3);
             this.tabPage4.Controls.Add(this.label56);
             this.tabPage4.Controls.Add(this.label57);
             this.tabPage4.Controls.Add(this.label58);
@@ -1757,69 +1803,6 @@
             this.label59.Size = new System.Drawing.Size(378, 39);
             this.label59.TabIndex = 99;
             this.label59.Text = "Customer (Last, First)";
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.AllowUserToAddRows = false;
-            this.dataGridView3.AllowUserToDeleteRows = false;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Type,
-            this.Category,
-            this.Make,
-            this.Model,
-            this.Description,
-            this.ExpectedResale,
-            this.PurchaseAmount});
-            this.dataGridView3.Location = new System.Drawing.Point(5, 261);
-            this.dataGridView3.Margin = new System.Windows.Forms.Padding(6);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView3.Size = new System.Drawing.Size(1004, 362);
-            this.dataGridView3.TabIndex = 98;
-            // 
-            // Type
-            // 
-            this.Type.HeaderText = "Type";
-            this.Type.MaxInputLength = 10;
-            this.Type.Name = "Type";
-            // 
-            // Category
-            // 
-            this.Category.HeaderText = "Category";
-            this.Category.MaxInputLength = 7;
-            this.Category.Name = "Category";
-            // 
-            // Make
-            // 
-            this.Make.HeaderText = "Make";
-            this.Make.MaxInputLength = 15;
-            this.Make.Name = "Make";
-            // 
-            // Model
-            // 
-            this.Model.HeaderText = "Model";
-            this.Model.MaxInputLength = 20;
-            this.Model.Name = "Model";
-            // 
-            // Description
-            // 
-            this.Description.HeaderText = "Description";
-            this.Description.MaxInputLength = 50;
-            this.Description.Name = "Description";
-            this.Description.Width = 350;
-            // 
-            // ExpectedResale
-            // 
-            this.ExpectedResale.HeaderText = "Expected Resale";
-            this.ExpectedResale.MaxInputLength = 9;
-            this.ExpectedResale.Name = "ExpectedResale";
-            // 
-            // PurchaseAmount
-            // 
-            this.PurchaseAmount.HeaderText = "Purchase Amount";
-            this.PurchaseAmount.MaxInputLength = 9;
-            this.PurchaseAmount.Name = "PurchaseAmount";
             // 
             // label56
             // 
@@ -2165,6 +2148,387 @@
             this.buttonAddCustomer.UseVisualStyleBackColor = true;
             this.buttonAddCustomer.Click += new System.EventHandler(this.buttonAddCustomer_Click);
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage7);
+            this.tabControl1.Controls.Add(this.tabPage8);
+            this.tabControl1.Controls.Add(this.tabPage9);
+            this.tabControl1.Controls.Add(this.tabPage10);
+            this.tabControl1.Location = new System.Drawing.Point(5, 275);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(1024, 342);
+            this.tabControl1.TabIndex = 119;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.dataGridView3);
+            this.tabPage7.Location = new System.Drawing.Point(4, 33);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1016, 305);
+            this.tabPage7.TabIndex = 0;
+            this.tabPage7.Text = "General";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.AllowUserToAddRows = false;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn11,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn17,
+            this.dataGridViewTextBoxColumn18,
+            this.dataGridViewTextBoxColumn19,
+            this.dataGridViewTextBoxColumn20,
+            this.dataGridViewTextBoxColumn21});
+            this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView3.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView3.Margin = new System.Windows.Forms.Padding(6);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.ReadOnly = true;
+            this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.dataGridView3.Size = new System.Drawing.Size(1010, 299);
+            this.dataGridView3.TabIndex = 76;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.HeaderText = "Category";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.HeaderText = "Sub Category";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.HeaderText = "Make";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.HeaderText = "Model";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn17
+            // 
+            this.dataGridViewTextBoxColumn17.HeaderText = "Discription";
+            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
+            this.dataGridViewTextBoxColumn17.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn18
+            // 
+            this.dataGridViewTextBoxColumn18.HeaderText = "Serial No";
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            this.dataGridViewTextBoxColumn18.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.HeaderText = "Item Notes";
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            this.dataGridViewTextBoxColumn19.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.HeaderText = "Expected Resale";
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            this.dataGridViewTextBoxColumn20.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.HeaderText = "Amount Loaned";
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            this.dataGridViewTextBoxColumn21.ReadOnly = true;
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.dataGridView6);
+            this.tabPage8.Location = new System.Drawing.Point(4, 33);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(1016, 305);
+            this.tabPage8.TabIndex = 1;
+            this.tabPage8.Text = "Jewerly";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView6
+            // 
+            this.dataGridView6.AllowUserToAddRows = false;
+            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Type,
+            this.JDiscription,
+            this.JItemNotes,
+            this.JExpectedResale,
+            this.JAmountLoaned,
+            this.Metal,
+            this.Size,
+            this.Style,
+            this.Sex,
+            this.StoneTpe,
+            this.Purity,
+            this.NoOfStones,
+            this.Weight,
+            this.AdditionalInfo});
+            this.dataGridView6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView6.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView6.Margin = new System.Windows.Forms.Padding(6);
+            this.dataGridView6.Name = "dataGridView6";
+            this.dataGridView6.ReadOnly = true;
+            this.dataGridView6.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.dataGridView6.Size = new System.Drawing.Size(1010, 299);
+            this.dataGridView6.TabIndex = 75;
+            // 
+            // Type
+            // 
+            this.Type.HeaderText = "Type";
+            this.Type.Name = "Type";
+            this.Type.ReadOnly = true;
+            // 
+            // JDiscription
+            // 
+            this.JDiscription.HeaderText = "Discription";
+            this.JDiscription.Name = "JDiscription";
+            this.JDiscription.ReadOnly = true;
+            // 
+            // JItemNotes
+            // 
+            this.JItemNotes.HeaderText = "Item Notes";
+            this.JItemNotes.Name = "JItemNotes";
+            this.JItemNotes.ReadOnly = true;
+            // 
+            // JExpectedResale
+            // 
+            this.JExpectedResale.HeaderText = "Expected Resale";
+            this.JExpectedResale.Name = "JExpectedResale";
+            this.JExpectedResale.ReadOnly = true;
+            // 
+            // JAmountLoaned
+            // 
+            this.JAmountLoaned.HeaderText = "Amount Loaned";
+            this.JAmountLoaned.Name = "JAmountLoaned";
+            this.JAmountLoaned.ReadOnly = true;
+            // 
+            // Metal
+            // 
+            this.Metal.HeaderText = "Metal";
+            this.Metal.Name = "Metal";
+            this.Metal.ReadOnly = true;
+            // 
+            // Size
+            // 
+            this.Size.HeaderText = "Size";
+            this.Size.Name = "Size";
+            this.Size.ReadOnly = true;
+            // 
+            // Style
+            // 
+            this.Style.HeaderText = "Style";
+            this.Style.Name = "Style";
+            this.Style.ReadOnly = true;
+            // 
+            // Sex
+            // 
+            this.Sex.HeaderText = "Sex";
+            this.Sex.Name = "Sex";
+            this.Sex.ReadOnly = true;
+            // 
+            // StoneTpe
+            // 
+            this.StoneTpe.HeaderText = "Stone Type";
+            this.StoneTpe.Name = "StoneTpe";
+            this.StoneTpe.ReadOnly = true;
+            // 
+            // Purity
+            // 
+            this.Purity.HeaderText = "Purity";
+            this.Purity.Name = "Purity";
+            this.Purity.ReadOnly = true;
+            // 
+            // NoOfStones
+            // 
+            this.NoOfStones.HeaderText = "No Of Stones";
+            this.NoOfStones.Name = "NoOfStones";
+            this.NoOfStones.ReadOnly = true;
+            // 
+            // Weight
+            // 
+            this.Weight.HeaderText = "Weight";
+            this.Weight.Name = "Weight";
+            this.Weight.ReadOnly = true;
+            // 
+            // AdditionalInfo
+            // 
+            this.AdditionalInfo.HeaderText = "Additional Info";
+            this.AdditionalInfo.Name = "AdditionalInfo";
+            this.AdditionalInfo.ReadOnly = true;
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.dataGridView7);
+            this.tabPage9.Location = new System.Drawing.Point(4, 33);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(1016, 305);
+            this.tabPage9.TabIndex = 2;
+            this.tabPage9.Text = "Firearm";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView7
+            // 
+            this.dataGridView7.AllowUserToAddRows = false;
+            this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView7.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn22,
+            this.dataGridViewTextBoxColumn23,
+            this.dataGridViewTextBoxColumn24,
+            this.dataGridViewTextBoxColumn25,
+            this.dataGridViewTextBoxColumn26});
+            this.dataGridView7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView7.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView7.Margin = new System.Windows.Forms.Padding(6);
+            this.dataGridView7.Name = "dataGridView7";
+            this.dataGridView7.ReadOnly = true;
+            this.dataGridView7.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.dataGridView7.Size = new System.Drawing.Size(1010, 299);
+            this.dataGridView7.TabIndex = 75;
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.HeaderText = "Loan Type";
+            this.dataGridViewTextBoxColumn22.MaxInputLength = 10;
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            this.dataGridViewTextBoxColumn22.ReadOnly = true;
+            this.dataGridViewTextBoxColumn22.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.HeaderText = "Product Name";
+            this.dataGridViewTextBoxColumn23.MaxInputLength = 7;
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn23.ReadOnly = true;
+            this.dataGridViewTextBoxColumn23.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn24
+            // 
+            this.dataGridViewTextBoxColumn24.HeaderText = "Description";
+            this.dataGridViewTextBoxColumn24.MaxInputLength = 50;
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
+            this.dataGridViewTextBoxColumn24.ReadOnly = true;
+            this.dataGridViewTextBoxColumn24.Width = 350;
+            // 
+            // dataGridViewTextBoxColumn25
+            // 
+            this.dataGridViewTextBoxColumn25.HeaderText = "Expected Resale";
+            this.dataGridViewTextBoxColumn25.MaxInputLength = 9;
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            this.dataGridViewTextBoxColumn25.ReadOnly = true;
+            this.dataGridViewTextBoxColumn25.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn26
+            // 
+            this.dataGridViewTextBoxColumn26.HeaderText = "Loan Amount";
+            this.dataGridViewTextBoxColumn26.MaxInputLength = 9;
+            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
+            this.dataGridViewTextBoxColumn26.ReadOnly = true;
+            this.dataGridViewTextBoxColumn26.Width = 200;
+            // 
+            // tabPage10
+            // 
+            this.tabPage10.Controls.Add(this.dataGridView8);
+            this.tabPage10.Location = new System.Drawing.Point(4, 33);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage10.Size = new System.Drawing.Size(1016, 305);
+            this.tabPage10.TabIndex = 3;
+            this.tabPage10.Text = "Automotive";
+            this.tabPage10.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView8
+            // 
+            this.dataGridView8.AllowUserToAddRows = false;
+            this.dataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView8.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Category,
+            this.SubCategory,
+            this.Make,
+            this.Model,
+            this.Discription,
+            this.SerialNo,
+            this.ItemNotes,
+            this.ExpectedResalePrice,
+            this.AmountLoaned});
+            this.dataGridView8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView8.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView8.Margin = new System.Windows.Forms.Padding(6);
+            this.dataGridView8.Name = "dataGridView8";
+            this.dataGridView8.ReadOnly = true;
+            this.dataGridView8.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.dataGridView8.Size = new System.Drawing.Size(1010, 299);
+            this.dataGridView8.TabIndex = 75;
+            // 
+            // Category
+            // 
+            this.Category.HeaderText = "Category";
+            this.Category.Name = "Category";
+            this.Category.ReadOnly = true;
+            // 
+            // SubCategory
+            // 
+            this.SubCategory.HeaderText = "Sub Category";
+            this.SubCategory.Name = "SubCategory";
+            this.SubCategory.ReadOnly = true;
+            // 
+            // Make
+            // 
+            this.Make.HeaderText = "Make";
+            this.Make.Name = "Make";
+            this.Make.ReadOnly = true;
+            // 
+            // Model
+            // 
+            this.Model.HeaderText = "Model";
+            this.Model.Name = "Model";
+            this.Model.ReadOnly = true;
+            // 
+            // Discription
+            // 
+            this.Discription.HeaderText = "Discription";
+            this.Discription.Name = "Discription";
+            this.Discription.ReadOnly = true;
+            // 
+            // SerialNo
+            // 
+            this.SerialNo.HeaderText = "Serial No";
+            this.SerialNo.Name = "SerialNo";
+            this.SerialNo.ReadOnly = true;
+            // 
+            // ItemNotes
+            // 
+            this.ItemNotes.HeaderText = "Item Notes";
+            this.ItemNotes.Name = "ItemNotes";
+            this.ItemNotes.ReadOnly = true;
+            // 
+            // ExpectedResalePrice
+            // 
+            this.ExpectedResalePrice.HeaderText = "Expected Resale";
+            this.ExpectedResalePrice.Name = "ExpectedResalePrice";
+            this.ExpectedResalePrice.ReadOnly = true;
+            // 
+            // AmountLoaned
+            // 
+            this.AmountLoaned.HeaderText = "Amount Loaned";
+            this.AmountLoaned.Name = "AmountLoaned";
+            this.AmountLoaned.ReadOnly = true;
+            // 
             // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2195,7 +2559,6 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -2204,6 +2567,15 @@
             this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            this.tabPage8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            this.tabPage9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
+            this.tabPage10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2335,13 +2707,6 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Type;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Category;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Make;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Model;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Description;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ExpectedResale;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PurchaseAmount;
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
@@ -2404,7 +2769,52 @@
         private System.Windows.Forms.Button buttonShowInfo;
         private System.Windows.Forms.Button buttonAddCustomer;
         private System.Windows.Forms.CheckBox TEB_Btn;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage7;
         public System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn17;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn18;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn19;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn20;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn21;
+        private System.Windows.Forms.TabPage tabPage8;
+        public System.Windows.Forms.DataGridView dataGridView6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Type;
+        private System.Windows.Forms.DataGridViewTextBoxColumn JDiscription;
+        private System.Windows.Forms.DataGridViewTextBoxColumn JItemNotes;
+        private System.Windows.Forms.DataGridViewTextBoxColumn JExpectedResale;
+        private System.Windows.Forms.DataGridViewTextBoxColumn JAmountLoaned;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Metal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Size;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Style;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Sex;
+        private System.Windows.Forms.DataGridViewTextBoxColumn StoneTpe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Purity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NoOfStones;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Weight;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AdditionalInfo;
+        private System.Windows.Forms.TabPage tabPage9;
+        public System.Windows.Forms.DataGridView dataGridView7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn22;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn24;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn25;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn26;
+        private System.Windows.Forms.TabPage tabPage10;
+        public System.Windows.Forms.DataGridView dataGridView8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Category;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SubCategory;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Make;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Model;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Discription;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SerialNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ItemNotes;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ExpectedResalePrice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AmountLoaned;
     }
 }
 

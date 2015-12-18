@@ -199,3 +199,46 @@ C:\Users\Ali\Dropbox\POS\POS_V0.3 + Database\WindowsFormsApplication6\WindowsFor
 C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
 C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
 C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AddCustomer.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotiveLoanItemEntry.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotivePurchaseItemEntry.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmLoanItemEntry.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmPurchaseItemEntry.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralPurchaseItemEntry.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.InventoryControl.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryPurchaseItemEntry.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.SystemControl.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.TakeNewCustomerPicture.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryLoanItemEntry.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.MainScreen.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralLoanItemEntry.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loanpayment.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loan_form.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\Ali\Documents\GitHub\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AddCustomer.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotiveLoanItemEntry.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.AutomotivePurchaseItemEntry.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmLoanItemEntry.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.FirearmPurchaseItemEntry.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralPurchaseItemEntry.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.InventoryControl.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryPurchaseItemEntry.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.SystemControl.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.TakeNewCustomerPicture.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.JewelryLoanItemEntry.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.MainScreen.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.GeneralLoanItemEntry.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loanpayment.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.loan_form.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources
+C:\Media\POS_V0.3 + Database\POS\WindowsFormsApplication6\WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache
