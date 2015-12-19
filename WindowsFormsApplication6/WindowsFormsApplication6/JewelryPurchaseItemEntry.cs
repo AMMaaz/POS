@@ -52,45 +52,49 @@ namespace WindowsFormsApplication6
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Purchase p = new Purchase();
-            p.PurchaseType = "jewelry";
-            p.CustomerID = id;
-            dc.Purchases.InsertOnSubmit(p);
-            dc.SubmitChanges();
+            //Purchase p = new Purchase();
+            //p.PurchaseType = "jewelry";
+            //p.CustomerID = id;
+            //dc.Purchases.InsertOnSubmit(p);
+            //dc.SubmitChanges();
 
-            PurchaseJewelry j = new PurchaseJewelry();
-            j.Type = comboBox2.Text;
-            j.Metal = comboBox4.Text;
-            j.Size = textBox8.Text;
-            j.Style = comboBox5.Text;
-            j.Sex = comboBox3.Text;
-            j.StoneType = comboBox6.Text;
-            j.Purity = comboBox1.Text;
-            j.StonesNumber = textBox2.Text;
-            j.Weight = textBox6.Text;
-            j.AddtionalInfo = textBox3.Text;
-            j.Description = textBox1.Text;
-            j.ItemNotes = textBox5.Text;
-            j.AmountLoaned = Convert.ToInt32(textBox4.Text);
-            j.PurchaseID = p.PurchaseID;
-            dc.PurchaseJewelries.InsertOnSubmit(j);
-            dc.SubmitChanges();
+            //PurchaseJewelry j = new PurchaseJewelry();
+            //j.Type = comboBox2.Text;
+            //j.Metal = comboBox4.Text;
+            //j.Size = textBox8.Text;
+            //j.Style = comboBox5.Text;
+            //j.Sex = comboBox3.Text;
+            //j.StoneType = comboBox6.Text;
+            //j.Purity = comboBox1.Text;
+            //j.StonesNumber = textBox2.Text;
+            //j.Weight = textBox6.Text;
+            //j.AddtionalInfo = textBox3.Text;
+            //j.Description = textBox1.Text;
+            //j.ItemNotes = textBox5.Text;
+            //j.AmountLoaned = Convert.ToInt32(textBox4.Text);
+            //j.PurchaseID = p.PurchaseID;
+            //dc.PurchaseJewelries.InsertOnSubmit(j);
+            //dc.SubmitChanges();
 
-            ms.dataGridView3.Rows.Add(1);
-            int Row = ms.dataGridView3.Rows.Count - 1;
-            ms.dataGridView3.Rows[Row].Cells[0].Value = comboBox2.Text;
-            //this does not have catagory
-            ms.dataGridView3.Rows[Row].Cells[1].Value = "";
-            //this also doesn't have make
-            ms.dataGridView3.Rows[Row].Cells[2].Value = "";
-            //also no model
-            ms.dataGridView3.Rows[Row].Cells[3].Value = "";
-            //yes description 
-            ms.dataGridView3.Rows[Row].Cells[4].Value = textBox1.Text;
-            //expected resale pta karni hy
-            ms.dataGridView3.Rows[Row].Cells[5].Value = "";
-            ms.dataGridView3.Rows[Row].Cells[6].Value = textBox4.Text;
+            ms.dataGridViewJ.Rows.Add(1);
+            int Row = ms.dataGridViewJ.Rows.Count - 1;
+            ms.dataGridViewJ.Rows[Row].Cells[0].Value = comboBox2.Text;
+            ms.dataGridViewJ.Rows[Row].Cells[1].Value = textBox1.Text;
+            ms.dataGridViewJ.Rows[Row].Cells[2].Value = textBox5.Text;
+            //expected resale
+            ms.dataGridViewJ.Rows[Row].Cells[3].Value = "";
+            ms.dataGridViewJ.Rows[Row].Cells[4].Value = Convert.ToInt32(textBox4.Text);
+            ms.dataGridViewJ.Rows[Row].Cells[5].Value = comboBox4.Text;
+            ms.dataGridViewJ.Rows[Row].Cells[6].Value = textBox8.Text;
+            ms.dataGridViewJ.Rows[Row].Cells[7].Value = comboBox5.Text;
+            ms.dataGridViewJ.Rows[Row].Cells[8].Value = comboBox3.Text;
+            ms.dataGridViewJ.Rows[Row].Cells[9].Value = comboBox6.Text;
+            ms.dataGridViewJ.Rows[Row].Cells[10].Value = comboBox1.Text;
+            ms.dataGridViewJ.Rows[Row].Cells[11].Value = textBox2.Text;
+            ms.dataGridViewJ.Rows[Row].Cells[12].Value = textBox6.Text;
+            ms.dataGridViewJ.Rows[Row].Cells[13].Value = textBox3.Text;
 
+            ms.textBox13.Text = (Convert.ToInt32(ms.textBox13.Text) + Convert.ToInt32(textBox4.Text)).ToString();
             this.Close();
         }
 

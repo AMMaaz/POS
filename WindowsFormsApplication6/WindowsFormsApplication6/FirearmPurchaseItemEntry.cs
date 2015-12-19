@@ -52,42 +52,45 @@ namespace WindowsFormsApplication6
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Purchase p = new Purchase();
-            p.PurchaseType = "firearm";
-            p.CustomerID = id;
-            dc.Purchases.InsertOnSubmit(p);
-            dc.SubmitChanges();
+            //Purchase p = new Purchase();
+            //p.PurchaseType = "firearm";
+            //p.CustomerID = id;
+            //dc.Purchases.InsertOnSubmit(p);
+            //dc.SubmitChanges();
 
-            PurchaseFirearm pf = new PurchaseFirearm();
-            pf.Type = comboBox2.Text;
-            pf.Make = textBox2.Text;
-            pf.Action = comboBox5.Text;
-            pf.Model = textBox7.Text;
-            pf.Caliber = textBox3.Text;
-            pf.Importer = textBox6.Text;
-            pf.SerialNumber = textBox4.Text;
-            pf.Finish = comboBox1.Text;
-            pf.Description = textBox1.Text;
-            pf.ItemNotes = textBox5.Text;
-            pf.AmountLoaned = Convert.ToInt32(textBox8.Text);
-            pf.PurchaseID = p.PurchaseID;
+            //PurchaseFirearm pf = new PurchaseFirearm();
+            //pf.Type = comboBox2.Text;
+            //pf.Make = textBox2.Text;
+            //pf.Action = comboBox5.Text;
+            //pf.Model = textBox7.Text;
+            //pf.Caliber = textBox3.Text;
+            //pf.Importer = textBox6.Text;
+            //pf.SerialNumber = textBox4.Text;
+            //pf.Finish = comboBox1.Text;
+            //pf.Description = textBox1.Text;
+            //pf.ItemNotes = textBox5.Text;
+            //pf.AmountLoaned = Convert.ToInt32(textBox8.Text);
+            //pf.PurchaseID = p.PurchaseID;
 
-            dc.PurchaseFirearms.InsertOnSubmit(pf);
-            dc.SubmitChanges();
+            //dc.PurchaseFirearms.InsertOnSubmit(pf);
+            //dc.SubmitChanges();
 
-            ms.dataGridView3.Rows.Add(1);
-            int Row = ms.dataGridView3.Rows.Count - 1;
+            ms.dataGridViewF.Rows.Add(1);
+            int Row = ms.dataGridViewF.Rows.Count - 1;
 
-            ms.dataGridView3.Rows[Row].Cells[0].Value = comboBox2.Text;
-            //doesn't have catagory
-            ms.dataGridView3.Rows[Row].Cells[1].Value = "";
-            ms.dataGridView3.Rows[Row].Cells[2].Value = textBox2.Text;
-            ms.dataGridView3.Rows[Row].Cells[3].Value = textBox7.Text;
-            ms.dataGridView3.Rows[Row].Cells[4].Value = textBox1.Text;
-            //expected resale pta karni hy
-            ms.dataGridView3.Rows[Row].Cells[5].Value = "";
-            ms.dataGridView3.Rows[Row].Cells[6].Value = textBox8.Text;
+            ms.dataGridViewF.Rows[Row].Cells[0].Value = comboBox2.Text;
+            ms.dataGridViewF.Rows[Row].Cells[1].Value = textBox2.Text;
+            ms.dataGridViewF.Rows[Row].Cells[2].Value = comboBox5.Text;
+            ms.dataGridViewF.Rows[Row].Cells[3].Value = textBox7.Text;
+            ms.dataGridViewF.Rows[Row].Cells[4].Value = textBox3.Text;
+            ms.dataGridViewF.Rows[Row].Cells[5].Value = textBox6.Text;
+            ms.dataGridViewF.Rows[Row].Cells[6].Value = textBox4.Text;
+            ms.dataGridViewF.Rows[Row].Cells[7].Value = comboBox1.Text;
+            ms.dataGridViewF.Rows[Row].Cells[8].Value = textBox1.Text;
+            ms.dataGridViewF.Rows[Row].Cells[9].Value = textBox5.Text;
+            ms.dataGridViewF.Rows[Row].Cells[10].Value = Convert.ToInt32(textBox8.Text);
 
+            ms.textBox13.Text = (Convert.ToInt32(ms.textBox13.Text) + Convert.ToInt32(textBox8.Text)).ToString();
             this.Close();
         }
 

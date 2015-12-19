@@ -743,24 +743,162 @@ namespace WindowsFormsApplication6
         {
             AutomotivePurchaseItemEntry apie = new AutomotivePurchaseItemEntry(this, custId);
             apie.ShowDialog();
+
+            tabControl1.SelectedIndex = 3;
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
             FirearmPurchaseItemEntry fpie = new FirearmPurchaseItemEntry(this, custId);
             fpie.ShowDialog();
+
+            tabControl1.SelectedIndex = 2;
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
             JewelryPurchaseItemEntry jpie = new JewelryPurchaseItemEntry(this, custId);
             jpie.ShowDialog();
+
+            tabControl1.SelectedIndex = 1;
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
             GeneralPurchaseItemEntry gpie = new GeneralPurchaseItemEntry(this, custId);
             gpie.ShowDialog();
+
+            tabControl1.SelectedIndex = 0;
         }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < dataGridViewG.Rows.Count; i++)
+            {
+                Purchase p = new Purchase();
+                p.PurchaseType = "general";
+                p.CustomerID = custId;
+                db.Purchases.InsertOnSubmit(p);
+                db.SubmitChanges();
+
+                PurchaseGeneral g = new PurchaseGeneral();
+                g.Category = dataGridViewG.Rows[i].Cells[0].Value.ToString();
+                g.SubCategory = dataGridViewG.Rows[i].Cells[1].Value.ToString(); ;
+                g.Make = dataGridViewG.Rows[i].Cells[2].Value.ToString(); ;
+                g.Model = dataGridViewG.Rows[i].Cells[3].Value.ToString(); ;
+                g.Description = dataGridViewG.Rows[i].Cells[4].Value.ToString(); ;
+                g.SerialNumber = dataGridViewG.Rows[i].Cells[5].Value.ToString(); ;
+                g.ItemNotes = dataGridViewG.Rows[i].Cells[6].Value.ToString(); ;
+                g.AmountLoaned = Convert.ToInt32(dataGridViewG.Rows[i].Cells[8].Value);
+                g.PurchaseID = p.PurchaseID;
+                //picture
+                db.PurchaseGenerals.InsertOnSubmit(g);
+                db.SubmitChanges();
+            }
+
+            for (int i = 0; i < dataGridViewJ.Rows.Count; i++)
+            {
+                Purchase p = new Purchase();
+                p.PurchaseType = "jewelry";
+                p.CustomerID = custId;
+                db.Purchases.InsertOnSubmit(p);
+                db.SubmitChanges();
+
+                PurchaseJewelry j = new PurchaseJewelry();
+                j.Type = dataGridViewJ.Rows[i].Cells[0].Value.ToString();
+                j.Description = dataGridViewJ.Rows[i].Cells[1].Value.ToString();
+                j.ItemNotes = dataGridViewJ.Rows[i].Cells[2].Value.ToString();
+                j.AmountLoaned = Convert.ToInt32(dataGridViewJ.Rows[i].Cells[4].Value);
+                j.Metal = dataGridViewJ.Rows[i].Cells[5].Value.ToString();
+                j.Size = dataGridViewJ.Rows[i].Cells[6].Value.ToString();
+                j.Style = dataGridViewJ.Rows[i].Cells[7].Value.ToString();
+                j.Sex = dataGridViewJ.Rows[i].Cells[8].Value.ToString();
+                j.StoneType = dataGridViewJ.Rows[i].Cells[9].Value.ToString();
+                j.Purity = dataGridViewJ.Rows[i].Cells[10].Value.ToString();
+                j.StonesNumber = dataGridViewJ.Rows[i].Cells[11].Value.ToString();
+                j.Weight = dataGridViewJ.Rows[i].Cells[12].Value.ToString();
+                j.AddtionalInfo = dataGridViewJ.Rows[i].Cells[13].Value.ToString();
+                j.PurchaseID = p.PurchaseID;
+                db.PurchaseJewelries.InsertOnSubmit(j);
+                db.SubmitChanges();
+            }
+
+            for (int i = 0; i < dataGridViewF.Rows.Count; i++)
+            {
+                Purchase p = new Purchase();
+                p.PurchaseType = "firearm";
+                p.CustomerID = custId;
+                db.Purchases.InsertOnSubmit(p);
+                db.SubmitChanges();
+
+                PurchaseFirearm pf = new PurchaseFirearm();
+                pf.Type = dataGridViewF.Rows[i].Cells[0].Value.ToString();
+                pf.Make = dataGridViewF.Rows[i].Cells[1].Value.ToString();
+                pf.Action = dataGridViewF.Rows[i].Cells[2].Value.ToString();
+                pf.Model = dataGridViewF.Rows[i].Cells[3].Value.ToString();
+                pf.Caliber = dataGridViewF.Rows[i].Cells[4].Value.ToString();
+                pf.Importer = dataGridViewF.Rows[i].Cells[5].Value.ToString();
+                pf.SerialNumber = dataGridViewF.Rows[i].Cells[6].Value.ToString();
+                pf.Finish = dataGridViewF.Rows[i].Cells[7].Value.ToString();
+                pf.Description = dataGridViewF.Rows[i].Cells[8].Value.ToString();
+                pf.ItemNotes = dataGridViewF.Rows[i].Cells[9].Value.ToString();
+                pf.AmountLoaned = Convert.ToInt32(dataGridViewF.Rows[i].Cells[10].Value);
+                pf.PurchaseID = p.PurchaseID;
+
+                db.PurchaseFirearms.InsertOnSubmit(pf);
+                db.SubmitChanges();
+            }
+
+            for (int i = 0; i < dataGridViewA.Rows.Count; i++)
+            {
+                Purchase p = new Purchase();
+                p.PurchaseType = "automotive";
+                p.CustomerID = custId;
+                db.Purchases.InsertOnSubmit(p);
+                db.SubmitChanges();
+
+                PurchaseAutomotive pa = new PurchaseAutomotive();
+                pa.Year = dataGridViewA.Rows[i].Cells[0].Value.ToString();
+                pa.TypeOfAutomobile = dataGridViewA.Rows[i].Cells[1].Value.ToString();
+                pa.Make = dataGridViewA.Rows[i].Cells[2].Value.ToString();
+                pa.BodyType = dataGridViewA.Rows[i].Cells[3].Value.ToString();
+                pa.Model = dataGridViewA.Rows[i].Cells[4].Value.ToString();
+                pa.PlateTag = dataGridViewA.Rows[i].Cells[5].Value.ToString();
+                pa.VINSerialNumber = dataGridViewA.Rows[i].Cells[6].Value.ToString();
+                pa.Color = dataGridViewA.Rows[i].Cells[7].Value.ToString();
+                pa.Description = dataGridViewA.Rows[i].Cells[8].Value.ToString();
+                pa.ItemNotes = dataGridViewA.Rows[i].Cells[9].Value.ToString();
+                pa.AmountLoaned = Convert.ToInt32(dataGridViewA.Rows[i].Cells[10].Value);
+                pa.PurchaseID = p.PurchaseID;
+                db.PurchaseAutomotives.InsertOnSubmit(pa);
+                db.SubmitChanges();
+            }
+
+            MessageBox.Show("Data Entered\nPrint Ticket");
+            dataGridViewA.Rows.Clear();
+            dataGridViewF.Rows.Clear();
+            dataGridViewJ.Rows.Clear();
+            dataGridViewG.Rows.Clear();
+            textBox13.Text = "0";
+            textBox15.Text = "0";
+            textBox7.Text = "0";
+        }
+
+        private void textBox15_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox15.Text != "" && textBox13.Text != "")
+            {
+                textBox7.Text = (Convert.ToInt32(textBox15.Text) - Convert.ToInt32(textBox13.Text)).ToString();
+            }
+        }
+
+        private void textBox13_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox15.Text != "" && textBox13.Text != "")
+            {
+                textBox7.Text = (Convert.ToInt32(textBox15.Text) - Convert.ToInt32(textBox13.Text)).ToString();
+            }
+        }
+
     }
 }

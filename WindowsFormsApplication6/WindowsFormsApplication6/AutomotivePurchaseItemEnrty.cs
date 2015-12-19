@@ -51,41 +51,43 @@ namespace WindowsFormsApplication6
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Purchase p = new Purchase();
-            p.PurchaseType = "automotive";
-            p.CustomerID = id;
-            dc.Purchases.InsertOnSubmit(p);
-            dc.SubmitChanges();
+            //Purchase p = new Purchase();
+            //p.PurchaseType = "automotive";
+            //p.CustomerID = id;
+            //dc.Purchases.InsertOnSubmit(p);
+            //dc.SubmitChanges();
 
-            PurchaseAutomotive pa = new PurchaseAutomotive();
-            pa.Year = textBox9.Text;
-            pa.TypeOfAutomobile = comboBox2.Text;
-            pa.Make = textBox10.Text;
-            pa.BodyType = textBox7.Text;
-            pa.Model = textBox3.Text;
-            pa.PlateTag = textBox6.Text;
-            pa.VINSerialNumber = textBox4.Text;
-            pa.Color = textBox2.Text;
-            pa.Description = textBox1.Text;
-            pa.ItemNotes = textBox5.Text;
-            pa.AmountLoaned = Convert.ToInt32(textBox8.Text);
-            pa.PurchaseID = p.PurchaseID;
-            dc.PurchaseAutomotives.InsertOnSubmit(pa);
-            dc.SubmitChanges();
+            //PurchaseAutomotive pa = new PurchaseAutomotive();
+            //pa.Year = textBox9.Text;
+            //pa.TypeOfAutomobile = comboBox2.Text;
+            //pa.Make = textBox10.Text;
+            //pa.BodyType = textBox7.Text;
+            //pa.Model = textBox3.Text;
+            //pa.PlateTag = textBox6.Text;
+            //pa.VINSerialNumber = textBox4.Text;
+            //pa.Color = textBox2.Text;
+            //pa.Description = textBox1.Text;
+            //pa.ItemNotes = textBox5.Text;
+            //pa.AmountLoaned = Convert.ToInt32(textBox8.Text);
+            //pa.PurchaseID = p.PurchaseID;
+            //dc.PurchaseAutomotives.InsertOnSubmit(pa);
+            //dc.SubmitChanges();
 
-            ms.dataGridView3.Rows.Add(1);
-            int Row = ms.dataGridView3.Rows.Count - 1;
-            //this does not have type but has body type
-            ms.dataGridView3.Rows[Row].Cells[0].Value = textBox7.Text;
-            //no catagory
-            ms.dataGridView3.Rows[Row].Cells[1].Value = "";
-            ms.dataGridView3.Rows[Row].Cells[2].Value = textBox10.Text;
-            ms.dataGridView3.Rows[Row].Cells[3].Value = textBox3.Text;
-            ms.dataGridView3.Rows[Row].Cells[4].Value = textBox1.Text;
-            //expected resale pta karni hy
-            ms.dataGridView3.Rows[Row].Cells[5].Value = "";
-            ms.dataGridView3.Rows[Row].Cells[6].Value = textBox8.Text;
+            ms.dataGridViewA.Rows.Add(1);
+            int Row = ms.dataGridViewA.Rows.Count - 1;
+            ms.dataGridViewA.Rows[Row].Cells[0].Value = textBox9.Text;
+            ms.dataGridViewA.Rows[Row].Cells[1].Value = comboBox2.Text;
+            ms.dataGridViewA.Rows[Row].Cells[2].Value = textBox10.Text;
+            ms.dataGridViewA.Rows[Row].Cells[3].Value = textBox7.Text;
+            ms.dataGridViewA.Rows[Row].Cells[4].Value = textBox3.Text;
+            ms.dataGridViewA.Rows[Row].Cells[5].Value = textBox6.Text;
+            ms.dataGridViewA.Rows[Row].Cells[6].Value = textBox4.Text;
+            ms.dataGridViewA.Rows[Row].Cells[7].Value = textBox2.Text;
+            ms.dataGridViewA.Rows[Row].Cells[8].Value = textBox1.Text;
+            ms.dataGridViewA.Rows[Row].Cells[9].Value = textBox5.Text;
+            ms.dataGridViewA.Rows[Row].Cells[10].Value = Convert.ToInt32(textBox8.Text);
 
+            ms.textBox13.Text = (Convert.ToInt32(ms.textBox13.Text) + Convert.ToInt32(textBox8.Text)).ToString();
             this.Close();
         }
 

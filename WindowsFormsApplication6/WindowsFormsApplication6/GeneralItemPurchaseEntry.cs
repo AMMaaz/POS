@@ -49,39 +49,42 @@ namespace WindowsFormsApplication6
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Purchase p = new Purchase();
-            p.PurchaseType = "general";
-            p.CustomerID = id;
-            dc.Purchases.InsertOnSubmit(p);
-            dc.SubmitChanges();
+            //Purchase p = new Purchase();
+            //p.PurchaseType = "general";
+            //p.CustomerID = id;
+            //dc.Purchases.InsertOnSubmit(p);
+            //dc.SubmitChanges();
 
-            PurchaseGeneral g = new PurchaseGeneral();
-            g.Category = comboBox2.Text;
-            g.SubCategory = comboBox1.Text;
-            g.Make = textBox2.Text;
-            g.Model = textBox3.Text;
-            g.Description = textBox1.Text;
-            g.SerialNumber = textBox4.Text;
-            g.ItemNotes = textBox5.Text;
-            g.AmountLoaned = Convert.ToInt32(textBox6.Text);
-            g.PurchaseID = p.PurchaseID;
-            //picture
-            dc.PurchaseGenerals.InsertOnSubmit(g);
-            dc.SubmitChanges();
+            //PurchaseGeneral g = new PurchaseGeneral();
+            //g.Category = comboBox2.Text;
+            //g.SubCategory = comboBox1.Text;
+            //g.Make = textBox2.Text;
+            //g.Model = textBox3.Text;
+            //g.Description = textBox1.Text;
+            //g.SerialNumber = textBox4.Text;
+            //g.ItemNotes = textBox5.Text;
+            //g.AmountLoaned = Convert.ToInt32(textBox6.Text);
+            //g.PurchaseID = p.PurchaseID;
+            ////picture
+            //dc.PurchaseGenerals.InsertOnSubmit(g);
+            //dc.SubmitChanges();
 
 
-            ms.dataGridView3.Rows.Add(1);
-            int Row = ms.dataGridView3.Rows.Count - 1;
-            //this does not have type
-            ms.dataGridView3.Rows[Row].Cells[0].Value = "";
-            ms.dataGridView3.Rows[Row].Cells[1].Value = comboBox2.Text;
-            ms.dataGridView3.Rows[Row].Cells[2].Value = textBox2.Text;
-            ms.dataGridView3.Rows[Row].Cells[3].Value = textBox3.Text;
-            ms.dataGridView3.Rows[Row].Cells[4].Value = textBox1.Text;
-            //expected resale pta karni hy
-            ms.dataGridView3.Rows[Row].Cells[5].Value = "";
-            ms.dataGridView3.Rows[Row].Cells[6].Value = textBox6.Text;
+            ms.dataGridViewG.Rows.Add(1);
+            int Row = ms.dataGridViewG.Rows.Count - 1;
+            
+            ms.dataGridViewG.Rows[Row].Cells[0].Value = comboBox2.Text;
+            ms.dataGridViewG.Rows[Row].Cells[1].Value = comboBox1.Text;
+            ms.dataGridViewG.Rows[Row].Cells[2].Value = textBox2.Text;
+            ms.dataGridViewG.Rows[Row].Cells[3].Value = textBox3.Text;
+            ms.dataGridViewG.Rows[Row].Cells[4].Value = textBox1.Text;
+            ms.dataGridViewG.Rows[Row].Cells[5].Value = textBox4.Text;
+            ms.dataGridViewG.Rows[Row].Cells[6].Value = textBox5.Text;
+            //expected resale??
+            ms.dataGridViewG.Rows[Row].Cells[7].Value = "";
+            ms.dataGridViewG.Rows[Row].Cells[8].Value = Convert.ToInt32(textBox6.Text);
 
+            ms.textBox13.Text = (Convert.ToInt32(ms.textBox13.Text) + Convert.ToInt32(textBox6.Text)).ToString();
             this.Close();
         }
 
